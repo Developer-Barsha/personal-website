@@ -5,7 +5,6 @@
 }
 .flexible{
     display: flex;
-    width: 100%;
 }
 .intro{
     width: 50%;
@@ -71,4 +70,69 @@ h1 span{
 .three{
     background-color: #c5f9d7;
     margin-right: 30px;
+}
+
+/************ second section done *************/
+
+.code-bg{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+.code-img img{
+    width: 350px;
+    height: 350px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.code{
+    padding-top: 110px;
+    padding-right: 3%;
+    padding-left: 35px;
+}
+.code h1{
+    font-size: 40px;
+    padding-bottom: 18px;
+}
+.code p{
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+/*********** third section done ************/
+
+.forth{
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+
+/********* 4 section done***********/
+
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+footer h2{
+    color: white;
+    padding: 30px 0 20px 0;
+    font-family: 'Felipa', cursive;
+}
+footer h2 span{
+    color: deeppink;
+}
+footer p{
+    color: white;
+    padding-bottom: 30px;
 }
