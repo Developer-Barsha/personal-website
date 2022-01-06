@@ -81,7 +81,6 @@ h1 span{
     background-repeat: no-repeat;
     background-position-y: 100px;
     padding-top: 20px;
-    display: flex;
 }
 .code-img img{
     width: 350px;
@@ -126,6 +125,15 @@ h1 span{
     background-position-x: 53%;
     background-position-y: 12px;
 }
+.experience h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+.purple-heading{
+    color: slateblue;
+    font-size: 45px;
+}
 .ex-1{
     width: 33%;
     padding: 30px;
@@ -144,11 +152,6 @@ h1 span{
     padding-bottom: 10px;
     padding-top: 10px;
 }
-.experience h1{
-    font-size: 50px;
-    text-align: center;
-    padding: 50px 0 20px 0;
-}
 .ex-2{
     padding: 60px 60px 0px 40px;
 }
@@ -157,12 +160,9 @@ h1 span{
     padding-bottom: 25px;
     color: slateblue;
 }
-.purple-heading{
-    color: slateblue;
-    font-size: 45px;
-}
 .ex-2 p{
     margin-bottom: 38px;
+    text-align: justify;
 }
 
 
